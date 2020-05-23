@@ -19,7 +19,6 @@
 }
 
 .personal-arrow {
-  padding: 9px;
   border: 1px solid $dark-blue;
   border-radius: 50%;
   svg {
@@ -31,6 +30,14 @@
       fill: #fff;
     }
   }
+}
+
+.personal-arrow--prev {
+  padding: 10px 10px 8px 8px;
+}
+
+.personal-arrow--next {
+  padding: 10px 8px 8px 10px;
 }
 
 .personal-arrow--prev {
@@ -74,7 +81,11 @@
     margin: 0 5px;
   }
 
-  .personal-arrow {
-    padding: 6px;
+  .personal-arrow--prev {
+    padding: 6px 7px 4px 6px;
+  }
+
+  .personal-arrow--next {
+    padding: 6px 5px 4px 8px;
   }
 }

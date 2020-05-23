@@ -6,7 +6,7 @@ $(document).ready(function () {
     arrows: true,
     slidesToShow: 1,
     slideToScroll: 3,
-    autoplay: false,
+    autoplay: true,
   });
 
   $(".personal__slider").slick({
@@ -59,7 +59,6 @@ $(document).ready(function () {
     $(".nav").slideToggle(), $(this).toggleClass("active");
   });
 
-  // new WOW().init();
   wow = new WOW({
     offset: 150,
   });
