@@ -1,0 +1,80 @@
+.personal__slider {
+  margin-top: 40px;
+  margin-left: -30px;
+}
+
+.personal__item {
+  max-width: 23%;
+  margin-left: 30px;
+}
+
+.personal__img {
+  margin-bottom: 22px;
+}
+
+.personal__name {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.personal-arrow {
+  padding: 9px;
+  border: 1px solid $dark-blue;
+  border-radius: 50%;
+  svg {
+    fill: $dark-blue;
+  }
+  &:hover {
+    background-color: $dark-blue;
+    svg {
+      fill: #fff;
+    }
+  }
+}
+
+.personal-arrow--prev {
+  left: 460px;
+}
+
+.personal__btn-wrapper {
+  position: relative;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.personal__btn {
+  margin: 0 13px;
+}
+
+@media only screen and (max-width: 767px) {
+  .personal__name {
+    font-size: 16px;
+  }
+
+  .personal__img {
+    margin-bottom: 13px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .personal__item {
+    text-align: center;
+  }
+
+  .personal__name {
+    font-size: 15px;
+  }
+
+  .personal__img {
+    margin: 0 auto 10px;
+  }
+
+  .personal__btn {
+    margin: 0 5px;
+  }
+
+  .personal-arrow {
+    padding: 6px;
+  }
+}

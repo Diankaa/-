@@ -1,0 +1,20 @@
+.about__content {
+    width: 49%;
+}
+
+.about__image {
+    width: 49%;
+    margin-top: 63px;
+}
+
+@media only screen and (max-width: 996px) {
+    .about__content,
+    .about__image {
+        width: 100%;
+        // text-align: center;
+    }
+
+    .about__image {
+        margin-top: 40px;
+    }
+}

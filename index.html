@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sever</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header animated slideInDown" >
+      <!-- header-top -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top__inner">
+            <a class="header__logo flex-center" href="/">
+              <img class="header__logo-icon" src="img/logo.png" alt="logo" />
+              <span class="header__logo-text">
+                <span class="header__logo-top">
+                  север
+                  <span class="header__logo-decor">+</span>
+                </span>
+                <span class="header__logo-bottom">Медицинский центр</span>
+              </span>
+            </a>
+            <div class="header__info flex-between">
+              <div class="header__work-time info-item">
+                <span class="info-item__top">
+                  <span class="info-item__bold">Работаем:</span>
+                  с 09:00 до 20:00</span
+                >
+                <span class="info-item__bottom">Без выходных</span>
+              </div>
+              <div class="header__address info-item">
+                <span class="info-item__top">
+                  <span class="info-item__bold">Наш адрес:</span>
+                  г. Москва,</span
+                >
+                <span class="info-item__bottom"
+                  >9-я Северная линия, дом 17</span
+                >
+              </div>
+              <div class="header__phone info-item">
+                <a class="header__phone-number" href="tel:+7(917)583-90-00">
+                  +7 (917) 583-90-00
+                </a>
+                <a class="header__phone-number" href="tel:+7(499)745-10-10">
+                  +7 (499) 745-10-10
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-top end -->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom__inner d-flex">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">О стоматологии</a>
+                </li>
+                <li class="nav__item nav-dropdown">
+                  <a class="nav__link nav-dropdown__link" role="button"
+                    >Услуги
+                    <svg
+                      class="dropdown-toggle"
+                      viewBox="0 0 551.13 551.13"
+                      width="12"
+                      height="9"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m275.565 361.679-223.897-223.896h-51.668l275.565 275.565 275.565-275.565h-51.668z"
+                      />
+                    </svg>
+                  </a>
+                  <ul class="dropdown-list">
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link"
+                        >Стоматология терапевтическая</a
+                      >
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link"
+                        >Гигиена полости рта</a
+                      >
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link"
+                        >Стоматология хирургическая</a
+                      >
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link"
+                        >Стоматология ортопедическая</a
+                      >
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link"
+                        >Процедурный кабинет</a
+                      >
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link">Ортодонтия</a>
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link"
+                        >Лазерная стоматология</a
+                      >
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link">УЗИ</a>
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link">Гинекология</a>
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="" class="dropdown-list__link">Урология</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Акции</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Документы</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Специалисты</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Фотогалерея</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Вопросы</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <a class="header-bottom__btn btn-blue" href="#">Запись на прием</a>
+            <button class="navbar-toggle">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- hero-section -->
+    <section class="hero">
+      <div class="hero__slider">
+        <div class="hero__slide">
+          <div class="hero__slide-inner">
+            <div class="hero__slide-wrapper">
+              <div class="hero__slide-content">
+                <h1 class="hero__title animated fadeInLeft">реставрация зубов Filtek Ultimate</h1>
+                <p class="hero__text animated zoomIn">
+                  Универсальная нано технология реставрации зубов специальным
+                  фотополимеризуемым компоненнтом с возможностью выбора оттенка
+                </p>
+                <a class="hero__btn btn-red animated zoomIn" href="#">Узнать стоимость</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__slide">
+          <div class="hero__slide-inner">
+            <div class="hero__slide-wrapper">
+              <div class="hero__slide-content">
+                <h1 class="hero__title">реставрация зубов Filtek Ultimate</h1>
+                <p class="hero__text">
+                  Универсальная нано технология реставрации зубов специальным
+                  фотополимеризуемым компоненнтом с возможностью выбора оттенка
+                </p>
+                <a class="btn-red" href="#">Узнать стоимость</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__slide">
+          <div class="hero__slide-inner">
+            <div class="hero__slide-wrapper">
+              <div class="hero__slide-content wow fadeIn" data-wow-delay=".2s">
+                <h1 class="hero__title">реставрация зубов Filtek Ultimate</h1>
+                <p class="hero__text">
+                  Универсальная нано технология реставрации зубов специальным
+                  фотополимеризуемым компоненнтом с возможностью выбора оттенка
+                </p>
+                <a class="btn-red" href="#">Узнать стоимость</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- advantages -->
+      <div class="advantages header__advantages wow fadeInUp">
+        <div class="container">
+          <div class="advantages__inner d-flex">
+            <div class="advantages__item">
+              <img class="advantages__item-icon" src="img/icon1.png" alt />
+              <span class="advantages__item-text">Собственная лаборатория</span>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__item-icon" src="img/icon2.png" alt />
+              <span class="advantages__item-text"
+                >Прием без очереди по записи</span
+              >
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__item-icon" src="img/icon3.png" alt />
+              <span class="advantages__item-text"
+                >Электронные амбулаторные карты</span
+              >
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__item-icon" src="img/icon4.png" alt />
+              <span class="advantages__item-text"
+                >Удобное место расположение</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- advantages end -->
+    </section>
+    <!-- hero-section end -->
+    <main>
+      <div class="container">
+        <!-- about -->
+        <section class="about">
+          <div class="section-wrapper flex-between">
+            <!-- about__content -->
+            <div class="about__content wow fadeIn" data-wow-delay=".2s">
+              <h2 class="section-title">Медицинский центр</h2>
+              <div class="about__text">
+                <p class="section-text">
+                  Медицинский центр «СЕВЕР +» предлагает медицинские услуги в
+                  области: терапевтической, хирургической, ортопедической
+                  стоматологии, ортодонтии и услуг процедурного кабинета (в том
+                  числе прием анализов).
+                </p>
+                <p class="section-text">
+                  Мы отстаиваем комплексный, индивидуальный подход к лечению
+                  каждого пациента.
+                </p>
+                <p class="section-text">
+                  Успех деятельности нашего медицинского центра определяется
+                  профессиональным, энергичным и сплоченным коллективом, а также
+                  умением предложить пациенту наиболее удобные и выгодные
+                  условия
+                </p>
+                <p class="section-text">
+                  Для Вашего удобства, Вы имеете возможность выбрать подходящее
+                  время и день визита к специалисту.
+                </p>
+                <p class="section-text">
+                  Запись по телефонам:
+                  <span class="text-bold text-bold--big"
+                    >+7 (917) 583-90-00</span
+                  >,
+                  <span class="text-bold text-bold--big"
+                    >+7 (499) 745-10-10</span
+                  >
+                </p>
+              </div>
+            </div>
+            <!-- about__content end -->
+            <div class="about__image wow fadeInRight" data-wow-delay=".4s">
+              <img src="img/about.jpg" alt />
+            </div>
+          </div>
+        </section>
+        <!-- about end -->
+        <!-- services -->
+        <section class="services wow fadeIn">
+          <div class="section-wrapper">
+            <h2 class="section-title">Услуги центра</h2>
+            <p class="section-text">
+              Наш медицинский центр предоставляет широкий спектор услуг
+              различной направленности. От протезирования и лечения зубов до
+              гинекологии и урологии.
+            </p>
+            <div class="services__items">
+              <div class="services-item wow fadeIn" data-wow-delay=".2s">
+                <img class="services-item__icon" src="img/service1.png" alt />
+                <div class="services-item__content">
+                  <h4 class="services-item__title">
+                    Терапевтическая стоматология
+                  </h4>
+                  <div class="services-item__text">
+                    Профилактика, прогнозирование и лечение болезней ротовой
+                    полости, а точнее – зубов, десен, слизистой оболочки и
+                    других зон.
+                  </div>
+                </div>
+              </div>
+              <div class="services-item wow fadeIn" data-wow-delay=".4s">
+                <img class="services-item__icon" src="img/service2.png" alt />
+                <div class="services-item__content">
+                  <h4 class="services-item__title">
+                    Стоматология хирургическая
+                  </h4>
+                  <div class="services-item__text">
+                    Операции по удалению зубов, подготовка и имплантация зубов,
+                    также разнообразные эстетические операции в пародонтологии.
+                  </div>
+                </div>
+              </div>
+              <div class="services-item wow fadeIn" data-wow-delay=".6s">
+                <img class="services-item__icon" src="img/service3.png" alt />
+                <div class="services-item__content">
+                  <h4 class="services-item__title">
+                    Лазерная стоматология
+                  </h4>
+                  <div class="services-item__text">
+                    Универсальная методика лечения заболеваний слизистой
+                    оболочки рта и пародонта.
+                  </div>
+                </div>
+              </div>
+              <div class="services-item wow fadeIn" data-wow-delay=".8s">
+                <img class="services-item__icon" src="img/service4.png" alt />
+                <div class="services-item__content">
+                  <h4 class="services-item__title">
+                    Ультразвуковое исследование
+                  </h4>
+                  <div class="services-item__text">
+                    Неинвазивное исследование организма человека с помощью
+                    ультразвуковых волн.
+                  </div>
+                </div>
+              </div>
+              <div class="services-item wow fadeIn" data-wow-delay="1s">
+                <img class="services-item__icon" src="img/service5.png" alt />
+                <div class="services-item__content">
+                  <h4 class="services-item__title">
+                    Гинекология
+                  </h4>
+                  <div class="services-item__text">
+                    Профилактика, прогнозирование и лечение болезней женской
+                    половой системы. Наблюдение за здоровьем беременных и
+                    рожениц.
+                  </div>
+                </div>
+              </div>
+              <div class="services-item wow fadeIn" data-wow-delay="1.2s">
+                <img class="services-item__icon" src="img/service6.png" alt />
+                <div class="services-item__content">
+                  <h4 class="services-item__title">
+                    Урология
+                  </h4>
+                  <div class="services-item__text">
+                    Диагностика и лечение на разных этапах урологических
+                    заболеваний, Различные урологические операций.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="services__btn-wrapper">
+              <a class="services__btn btn-blue" href="#">Все услуги</a>
+            </div>
+          </div>
+        </section>
+        <!-- services end -->
+      </div>
+      <!-- personal -->
+      <section class="personal wow fadeIn">
+        <div class="section-wrapper">
+          <div class="container">
+            <h2 class="section-title">Наши специалисты</h2>
+            <p class="section-text">
+              Наш штат врачей включает в себя самых квалифицированных
+              специалистов в различных областях медицины.
+            </p>
+          </div>
+          <div class="container">
+            <div class="personal__slider flex-between">
+              <div class="personal__item wow zoomIn" data-wow-delay=".4s">
+                <img class="personal__img" src="img/personal1.jpg" alt />
+                <div class="personal__name">Красиков Алексей Анатольевич</div>
+                <div class="personal__position">
+                  Главный врач, врач стоматолог-терапевт, ортопед
+                </div>
+              </div>
+              <div class="personal__item wow zoomIn" data-wow-delay=".6s">
+                <img class="personal__img" src="img/personal2.jpg" alt />
+                <div class="personal__name">Соттаев Азрет Зейтунович</div>
+                <div class="personal__position">
+                  Врач стоматолог-терапевт, ортопед, хирург
+                </div>
+              </div>
+              <div class="personal__item wow zoomIn" data-wow-delay=".8s">
+                <img class="personal__img" src="img/personal3.jpg" alt />
+                <div class="personal__name">Клейменов Илья Юрьевич</div>
+                <div class="personal__position">
+                  Врач стоматолог- терапевт, хирург
+                </div>
+              </div>
+              <div class="personal__item wow zoomIn" data-wow-delay="1s">
+                <img class="personal__img" src="img/personal4.jpg" alt />
+                <div class="personal__name">Шелихова Ольга Николаевна</div>
+                <div class="personal__position">
+                  Старшая медсестра
+                </div>
+              </div>
+              <div class="personal__item wow zoomIn" data-wow-delay="1.2s">
+                <img class="personal__img" src="img/personal1.jpg" alt />
+                <div class="personal__name">Красиков Алексей Анатольевич</div>
+                <div class="personal__position">
+                  Главный врач, врач стоматолог-терапевт, ортопед
+                </div>
+              </div>
+              <div class="personal__item wow zoomIn" data-wow-delay="1.4s">
+                <img class="personal__img" src="img/personal2.jpg" alt />
+                <div class="personal__name">Соттаев Азрет Зейтунович</div>
+                <div class="personal__position">
+                  Врач стоматолог-терапевт, ортопед, хирург
+                </div>
+              </div>
+              <div class="personal__item wow zoomIn" data-wow-delay="1.6s">
+                <img class="personal__img" src="img/personal3.jpg" alt />
+                <div class="personal__name">Клейменов Илья Юрьевич</div>
+                <div class="personal__position">
+                  Врач стоматолог- терапевт, хирург
+                </div>
+              </div>
+              <div class="personal__item wow zoomIn" data-wow-delay="1.8s">
+                <img class="personal__img" src="img/personal4.jpg" alt />
+                <div class="personal__name">Шелихова Ольга Николаевна</div>
+                <div class="personal__position">
+                  Старшая медсестра
+                </div>
+              </div>
+            </div>
+            <div class="personal__btn-wrapper">
+              <button type="button" class="personal-arrow personal-arrow--prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 492 492"
+                  width="20"
+                  height="17"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12
+			C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084
+			c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864
+			l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </button>
+              <a class="personal__btn btn-blue" href="#">Все специалисты</a>
+              <button type="button" class="personal-arrow personal-arrow--next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 492.004 492.004"
+                  width="20"
+                  height="17"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+               c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+               c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+               c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- personal end -->
+      <!-- consultation -->
+      <section class="consultation wow fadeIn">
+        <div class="container">
+          <div class="consultation__inner flex-between">
+            <div class="consultation__info">
+              <h2 class="consultation__title">
+                Хотите записаться на прием в клинику?
+              </h2>
+              <p class="consultation__text">
+                Для записи на прием к специалисту на нужную вам дату и время,
+                Вам необходимо позвонить по одному из телефонов:
+                <span class="text-bold text-bold--big">+7(917)5839000</span
+                ><span class="text-bold text-bold--big">+7(499)7451010</span>
+                или оставить заявку.
+              </p>
+            </div>
+            <div class="consultation__record flex-center">
+              <button class="consultation__btn btn-red">
+                Записаться на прием
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- consultation end -->
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__items flex-between">
+            <div class="footer__item wow fadeIn" data-wow-delay=".2s">
+              <h3 class="footer__item-title">Услуги центра</h3>
+              <ul class="footer-list">
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">
+                    Стоматология терапевтическая
+                  </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Гигиена полости рта </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#"
+                    >Стоматология хирургическая
+                  </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#"
+                    >Стоматология ортопедическая
+                  </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Процедурный кабинет </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Ортодонтия </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#"
+                    >Лазерная стоматология
+                  </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#"
+                    >Ультрозвуковое исследование</a
+                  >
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Гинекология</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Урология</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item wow fadeIn" data-wow-delay=".4s">
+              <h3 class="footer__item-title">Информация</h3>
+              <ul class="footer-list">
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">О Стоматологии</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Все услуги</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Акции </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Документы </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Специалисты</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Фотогалерея </a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Контакты</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Вопросы</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Записаться на прием</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#"
+                    >Политика конфеденциальности</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item wow fadeIn" data-wow-delay=".6s">
+              <h3 class="footer__item-title">Контакты медицинского центра</h3>
+              <div class="item-top flex-between">
+                <!-- item-top__contacts -->
+                <div class="item-top__contacts">
+                  <div
+                    class="item-top__block"
+                    style="--bg-image: url('../img/phone.png');"
+                  >
+                    <span>
+                      <a
+                        class="item-top__contacts-link"
+                        href="tel:+7(917)583-90-00"
+                        >+7 (917) 583-90-00
+                      </a>
+                    </span>
+                    <span>
+                      <a
+                        class="item-top__contacts-link"
+                        href="tel:+7(499)745-10-10"
+                        >+7 (499) 745-10-10
+                      </a>
+                    </span>
+                  </div>
+                  <div
+                    class="item-top__block"
+                    style="--bg-image: url('../img/map.png');"
+                  >
+                    <span
+                      ><span class="text-bold">Наш адрес:</span> 127204, г.
+                      Москва</span
+                    >
+                    <span>9-я Северная линия, дом 17</span>
+                    <span
+                      ><span class="text-bold">Станций метро</span>
+                      «Алтуфьево»</span
+                    >
+                  </div>
+                </div>
+                <!-- item-top__contacts end -->
+                <!-- item-top__record -->
+                <div class="item-top__record">
+                  <div class="item-top__btn-wrapper">
+                    <a class="btn-blue item-top__btn" href="#"
+                      >Записаться на прием</a
+                    >
+                  </div>
+                  <div
+                    class="item-top__block"
+                    style="--bg-image: url('../img/clock.png');"
+                  >
+                    <span class="text-bold">График работы центра:</span>
+                    <span>ПН : ВС с 09:00 до 20:00</span
+                    ><span>Без выходных</span>
+                  </div>
+                </div>
+                <!-- item-top__record end -->
+              </div>
+              <div class="item-bottom">
+                <p class="item-bottom__info">
+                  © 2018
+                  <span class="text-bold">Медицинский центр «СЕВЕР +»</span>
+                  оказывает услуги в таких медицинских направлениях как:
+                  стоматология и прием анализов. Все права защищены.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
